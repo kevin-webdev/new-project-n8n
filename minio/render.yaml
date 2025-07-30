@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: minio
+    env: docker
+    plan: starter
+    disk:
+      name: minio-data
+      mountPath: /data
+    autoDeploy: true

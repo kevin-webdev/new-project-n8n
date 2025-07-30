@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: nca-toolkit
+    env: docker
+    plan: starter
+    autoDeploy: true

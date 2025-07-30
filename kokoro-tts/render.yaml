@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: kokoro-tts
+    env: docker
+    plan: free
+    autoDeploy: true
